@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background-color: #3e3939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi-container {
+  background-color: #fff;
+  padding: 20px;
+  width: 800px;
+  height: 550px;
+  border-radius: 10px;
+  transition: 1s ease;
+}
+.bmi-container:hover {
+  border: 2px solid #000;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+.bmi-container:hover .b {
+  transition: 3s ease;
+  color: #d92026;
+}
+.bmi-container:hover .m {
+  transition: 3s ease;
+  color: #f6be2d;
+}
+.bmi-container:hover .i {
+  transition: 3s ease;
+  color: #6eb770;
+}
+.bmi-container .data {
+  flex: 1;
+  padding: 15px;
+}
+.bmi-container .data h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 10px 0px;
+  color: #3cace8;
+}
+.bmi-container .data .inp {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.bmi-container .data .inp label {
+  margin-bottom: 5px;
+  display: block;
+}
+.bmi-container .data .inp label span {
+  color: #797979;
+  font-style: italic;
+}
+.bmi-container .data .inp input {
+  margin-bottom: 20px;
+  display: block;
+  width: 95%;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+.bmi-container .data .inp input:focus {
+  border: 2px solid #000;
+}
+.bmi-container .data button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3cace8;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease;
+  color: #fff;
+}
+.bmi-container .data button:hover {
+  background-color: #3990c0;
+}
+.bmi-container .data .clear {
+  background-color: #f43b41;
+  margin-left: 30px;
+}
+.bmi-container .data .clear:hover {
+  background-color: #d52026;
+}
+.bmi-container .data .result {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 0px 10px;
+  border: 2px solid #3cace8;
+  border-radius: 5px;
+}
+.bmi-container .data .result p:first-child {
+  color: #3cace8;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
